@@ -21,7 +21,7 @@ export const Heading = () => {
                   <Spinner size="lg" />
                 </div>
               )}
-              {isAuthenticated && !isLoading &&(
+              {/* {isAuthenticated && !isLoading &&(
               <Button asChild>
                 <Link 
                 href="/documents"
@@ -40,7 +40,18 @@ export const Heading = () => {
                   </Button>
                 </SignInButton>  
               )
-              }
+              } */}
+               {/* {!isAuthenticated && !isLoading &&(
+               <>
+               <SignInButton mode="modal">
+                <Button >
+                  Get Jotion Free
+                  <ArrowRight className="h-4 w-4 ml-2"/>
+                </Button>
+               </SignInButton>
+               </>
+             )} */}
+            
         </div>
     )
 }
